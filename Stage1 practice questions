@@ -1,0 +1,121 @@
+Q1.Print Hello World.
+Code
+----
+print("Hello World")
+
+Q2.Add two numbers.
+Code
+----
+a=10
+b=20
+sum=a+b
+print(sum)#30
+
+Q3.Swap two numbers.
+Code
+----
+(Using Third Variable)
+a = 10
+b = 20
+temp = a
+a = b
+b = temp
+print("a =", a)#20
+print("b =", b)#10
+
+(Without third variable)
+a=10
+b=30
+a=a^b
+b=b^a
+a=a^b
+print("a : ",a)#30
+print("b : ",b)#10
+
+Q4.Area of Circle.
+Formula-A=πr2
+Code
+----
+r=5
+aria=3.14*r*r
+print("Area of circle : ",aria)#78.5
+
+Q6.Area of Rectangle.
+Formula- A=length * breadth(width)
+Code
+----
+l=10
+b=5
+area=l*b
+print("Area of rectangle: ",area)#50
+
+Q7.Simple Interest.
+Formula-SI=Principal_amount*Rate_of_interest*Time / 100
+Code-
+p=5000
+r=5
+t=2
+SI=p*r*t/100
+print("Simple intrest: ",SI)#500.0
+
+Q8.Temperature Conversion.
+(Celsius to Fahrenheit)
+Formula- f=9/5*c+32
+Code
+----
+c=25
+f=9/5*c+32
+print("Fahrenheit: ",f)#77.0
+
+(Fahrenheit to Celsius)
+f=77
+c=(5/9)*(f-32)
+print("Celsius: ",c)#25.0
+
+Q9.Even or Odd Number.
+Logic even= num%2==0 is even
+      odd = num%2!=0 is odd
+num=4
+if num%2==0:
+    print("Even")#Even
+else:
+    print("Odd")
+
+Q10.Positive / Negative number.
+Code
+----
+num=4
+if num < 0:
+    print("Negetive")
+else:
+    print("Positive")#Positive
+
+Q11.Largest of 3 numbers.
+Code
+----
+num1=10
+num2=20
+num3=5
+if num1 > num2 and num1 > num3:
+    print(num1," is big.")
+elif num2 > num1 and num1 > num2:
+    print(num2," is big.")#20
+else:
+    print(num3," is big.")
+
+Q12.Leap year check.
+Logic
+-----
+  1.It is divisible by 4
+  2.But not divisible by 100
+  3.Or divisible by 400
+Code
+----
+def leap(year):
+    if year%4==0 and year%100!=0 or year%400==0:
+        print(year," Leap year")
+    else:
+        print(year," Not Leap Year")
+    
+leap(2024)#Leap year
+
