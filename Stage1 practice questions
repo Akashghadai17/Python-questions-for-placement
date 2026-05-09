@@ -40,7 +40,7 @@ r=5
 aria=3.14*r*r
 print("Area of circle : ",aria)#78.5
 
-Q6.Area of Rectangle.
+Q5.Area of Rectangle.
 Formula- A=length * breadth(width)
 Code
 ----
@@ -49,7 +49,7 @@ b=5
 area=l*b
 print("Area of rectangle: ",area)#50
 
-Q7.Simple Interest.
+Q6.Simple Interest.
 Formula-SI=Principal_amount*Rate_of_interest*Time / 100
 Code-
 p=5000
@@ -58,7 +58,7 @@ t=2
 SI=p*r*t/100
 print("Simple intrest: ",SI)#500.0
 
-Q8.Temperature Conversion.
+Q7.Temperature Conversion.
 (Celsius to Fahrenheit)
 Formula- f=9/5*c+32
 Code
@@ -72,7 +72,7 @@ f=77
 c=(5/9)*(f-32)
 print("Celsius: ",c)#25.0
 
-Q9.Even or Odd Number.
+Q8.Even or Odd Number.
 Logic even= num%2==0 is even
       odd = num%2!=0 is odd
 num=4
@@ -81,7 +81,7 @@ if num%2==0:
 else:
     print("Odd")
 
-Q10.Positive / Negative number.
+Q9.Positive / Negative number.
 Code
 ----
 num=4
@@ -90,7 +90,7 @@ if num < 0:
 else:
     print("Positive")#Positive
 
-Q11.Largest of 3 numbers.
+Q10.Largest of 3 numbers.
 Code
 ----
 num1=10
@@ -103,7 +103,7 @@ elif num2 > num1 and num1 > num2:
 else:
     print(num3," is big.")
 
-Q12.Leap year check.
+Q11.Leap year check.
 Logic
 -----
   1.It is divisible by 4
