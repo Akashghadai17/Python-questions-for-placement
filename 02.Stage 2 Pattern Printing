@@ -74,3 +74,126 @@ for i in range(n):
     for j in range(i,n):
         print("*",end=' ')
     print()
+
+Q5.Right side triangle
+---------------------
+     *
+    **
+   ***
+  ****
+ *****
+n=5
+for i in range(n):
+    for j in range(i,n):
+        print(' ',end='')
+    for j in range(i+1):
+        print('*',end='')
+    print()
+
+Q6.
+ *****
+  ****
+   ***
+    **
+     *
+n=5
+for i in range(n):
+    for j in range(i+1):
+        print(' ',end='')
+    for j in range(i,n):
+        print('*',end='')
+    print()
+Q7.Hill Pattern
+          * 
+        * * * 
+      * * * * * 
+    * * * * * * * 
+  * * * * * * * * * 
+n=5
+for i in range(n):
+    for j in range(i,n):
+        print(' ',end=' ')
+    for j in range(i):
+        print('*',end=' ')
+    for j in range(i+1):
+        print('*',end=' ')
+    print()
+
+Q8.Reverse Hill Pattern.
+* * * * * * * * * 
+  * * * * * * * 
+    * * * * * 
+      * * * 
+        * 
+n=5
+for i in range(n):
+    for j in range(i):
+        print(' ',end=' ')
+    for j in range(i,n-1):
+        print('*',end=' ')
+    for j in range(i,n):
+        print('*',end=' ')
+    print()
+
+Q.9. Diamond
+          * 
+        * * * 
+      * * * * * 
+    * * * * * * * 
+  * * * * * * * * * 
+  * * * * * * * * * 
+    * * * * * * * 
+      * * * * * 
+        * * * 
+          * 
+n=5
+for i in range(n):
+    for j in range(i,n):
+        print(' ',end=' ')
+    for j in range(i):
+        print('*',end=' ')
+    for j in range(i+1):
+        print('*',end=' ')
+    print()
+for i in range(n):
+    for j in range(i+1):
+        print(' ',end=' ')
+    for j in range(i,n-1):
+        print('*',end=' ')
+    for j in range(i,n):
+        print('*',end=' ')
+    print()
+
+Q10.Number Pyramid.
+                1 
+              2 2 2 
+            3 3 3 3 3 
+          4 4 4 4 4 4 4 
+        5 5 5 5 5 5 5 5 5 
+      6 6 6 6 6 6 6 6 6 6 6 
+    7 7 7 7 7 7 7 7 7 7 7 7 7 
+  8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 
+n=8
+for i in range(n):
+    for j in range(i,n):
+        print(' ',end=' ')
+    for j in range(i):
+        print(i+1,end=' ')
+    for j in range(i+1):
+        print(i+1,end=' ')
+    print()
+
+Q11.Floyd's Triangle
+1  
+2  3  
+4  5  6  
+7  8  9  10  
+11  12  13  14  15 
+rows =5
+number = 1
+for i in range(1, rows + 1):
+    for j in range(1, i + 1):        
+        print(number, end = '  ')
+        number = number + 1
+    print()
+
